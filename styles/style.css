@@ -57,7 +57,7 @@ nav ul li {
     width: 862px;
     height: 225px;
     /* background-color: aquamarine; */
-    margin-left: 180px;
+    margin-left: 350px;
     margin-top: 100px;
 }
 
@@ -72,6 +72,7 @@ nav ul li {
     font-size: 16px;
     width: 868px;
     height: 52px;
+    padding-top: 20px;
     text-align: center;
     /* margin-top: 20px; */
     color: #727272;
@@ -80,4 +81,62 @@ nav ul li {
 .image img {
     width: 80%;
     padding: 100px 0px 50px 140px;
+}
+
+/* Main Section Styles */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.team-images {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-features {
+    width: 537px;
+    height: 304px;
+    margin-left: 75px;
+    /* background-color: aquamarine; */
+}
+
+
+
+.features-title {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.features-description {
+    color: #727272;
+    padding-top: 25px;
+}
+
+input[type="Submit"] {
+    width: 180px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.span-1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
 }
