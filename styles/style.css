@@ -342,3 +342,114 @@ footer {
     background: #FFF4E7;
     border-radius: 8px;
 }
+
+
+
+/* media quories styles */
+
+@media only screen and (max-width:576px) {
+    .navigation-section {
+        flex-direction: column;
+    }
+
+    .site-logo {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+        width: 65%;
+        margin-left: 25%;
+    }
+
+    .header-info {
+        width: 100%;
+        padding-left: 0%;
+        font-weight: 400;
+        position: relative;
+        right: 380px;
+        font-size: 20px;
+    }
+
+    .header-description {
+        font-weight: 400;
+        font-size: 10px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+
+    }
+
+    input[type="button"] {
+        left: 30%;
+    }
+
+    .image img {
+        position: relative;
+        right: 30%;
+        top: 200px;
+
+    }
+
+    /* main section responsive */
+    .main-section {
+        flex-direction: column;
+    }
+
+    .team img {
+        width: 79%;
+    }
+
+    .team-images {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .team-features {
+        width: 80%;
+        height: 304px;
+        margin-left: 0px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .award-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        right: 20%;
+    }
+
+    .sponsor-section {
+        height: 100px;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 250px;
+    }
+
+
+    .logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 70px;
+
+    }
+
+    .footer {
+        width: 400px;
+        height: 50px;
+        position: relative;
+        right: 60%;
+    }
+
+
+
+
+}
