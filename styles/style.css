@@ -26,7 +26,7 @@ input[type="button"] {
 
 /* header styles */
 .header-section {
-    height: 1040px;
+    height: 1140px;
     background-color: #FF900E1A;
 }
 
@@ -83,7 +83,14 @@ nav ul li {
     padding: 100px 0px 50px 140px;
 }
 
-/* Main Section Styles */
+
+
+/* -----------------
+Main Section Styles
+-------------------------*/
+
+
+
 .main-section {
     display: flex;
     justify-content: center;
@@ -101,7 +108,6 @@ nav ul li {
     width: 537px;
     height: 304px;
     margin-left: 75px;
-    /* background-color: aquamarine; */
 }
 
 
@@ -139,4 +145,85 @@ input[type="Submit"] {
     font-weight: 700;
     font-size: 45px;
     color: #FF900E;
+}
+
+/* ----------
+
+Love And Features Section
+
+---------*/
+.love-features-section {
+    width: 90%;
+    height: 900px;
+    margin-left: 100px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.love-features-items {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.love-features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    border-left: 4px solid orangered;
+}
+
+.love-features-description,
+.element-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.love-features-elements {
+    width: 586px;
+    height: 78%;
+}
+
+.element {
+    background-color: white;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 110px;
+    padding: 30px 0 10px 33px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 5px #d9d7d7;
+}
+
+.element-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.love-image img {
+    width: 708px;
+    height: 882px;
+    margin-left: 50px;
+}
+
+.experiance-btn {
+    background: #FF900E;
+    color: white;
+    width: 262px;
+    height: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    right: 20px;
+    bottom: 80px;
+}
+
+.year-font {
+    font-weight: 700;
+    font-size: 35px;
 }
