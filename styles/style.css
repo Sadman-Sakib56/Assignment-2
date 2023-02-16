@@ -10,6 +10,15 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.love-features-description,
+.element-description,
+.fact-description,
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
 input[type="button"] {
     width: 180px;
     height: 64px;
@@ -26,7 +35,7 @@ input[type="button"] {
 
 /* header styles */
 .header-section {
-    height: 1140px;
+    height: 1120px;
     background-color: #FF900E1A;
 }
 
@@ -35,7 +44,7 @@ input[type="button"] {
     justify-content: space-around;
 }
 
-.logo {
+.site-logo {
     font-weight: 700;
     font-size: 25px;
     width: 302px;
@@ -175,13 +184,6 @@ Love And Features Section
     border-left: 4px solid orangered;
 }
 
-.love-features-description,
-.element-description,
-.fact-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-}
 
 .love-features-elements {
     width: 586px;
@@ -285,4 +287,58 @@ Love And Features Section
 
 .digit {
     font-size: 45px;
+}
+
+/* ---------
+
+      sponsor-section styles
+
+      ---------------- */
+
+
+.sponsor-section {
+    height: 100px;
+    width: 500px;
+    margin-left: 35%;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sponsor-description {
+    text-align: center;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 70px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/* footer styles */
+
+footer {
+    height: 200px;
+    background-color: red;
+}
+
+.footer {
+    width: 1100px;
+    height: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding-top: 30px;
+    margin-left: 240px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
 }
